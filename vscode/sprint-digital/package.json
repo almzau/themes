@@ -1,0 +1,21 @@
+{
+  "name": "sprint-digital",
+  "displayName": "Sprint Digital",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sprint Digital",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sprint Digital-color-theme.json"
+      }
+    ]
+  }
+}
