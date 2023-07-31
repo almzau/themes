@@ -1,0 +1,49 @@
+{
+	"name": "Teams",
+	"displayName": "Teams",
+	"description": "Teams color theme for VS Code",
+	"version": "1.1.10",
+	"publisher": "almzau",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Teams",
+				"uiTheme": "vs",
+				"path": "./themes/teams-light.json"
+			},
+			{
+				"label": "Teams (Dark)",
+				"uiTheme": "vs-dark",
+				"type": "dark",
+				"path": "./themes/teams-dark.json"
+			}
+		]
+	},
+	"license": "MIT",
+	"keywords": [
+		"teams theme",
+		"light theme",
+		"dark theme",
+		"teams",
+		"Teams",
+		"theme",
+		"light",
+		"dark"
+	],
+	"__metadata": {
+		"id": "ddfad270-843f-40b3-a413-3d57c878b12a",
+		"publisherId": "483aab67-a568-4e67-ae17-4ccc9356b581",
+		"publisherDisplayName": "almzau",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1664251203040
+	}
+}

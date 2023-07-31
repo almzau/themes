@@ -1,0 +1,23 @@
+{
+  "name": "90s-jazz",
+  "displayName": "90s-jazz",
+  "publisher": "almzau",
+  "description": "90s nostalgia",
+  "repository": "git@github.com:almzau/90s-jazz.git",
+  "version": "0.0.4",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "90s-jazz",
+        "uiTheme": "vs",
+        "path": "./themes/Jazz-color-theme.json"
+      }
+    ]
+  }
+}

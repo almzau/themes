@@ -1,0 +1,46 @@
+{
+	"name": "vertex-light",
+	"displayName": "Vertex Light",
+	"description": "vertex Light color theme for VS Code",
+	"version": "1.1.3",
+	"publisher": "almzau",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Vertex Light",
+				"uiTheme": "vs",
+				"path": "./themes/vertex-light.json"
+			},
+			{
+				"label": "Vertex Lighter",
+				"uiTheme": "vs",
+				"path": "./themes/vertex-lighter.json"
+			}
+		]
+	},
+	"license": "MIT",
+	"keywords": [
+		"vertex light theme",
+		"light theme",
+		"vertex light",
+		"theme",
+		"light"
+	],
+	"__metadata": {
+		"id": "33c27f5e-3a00-4d0b-b074-097d967d48b3",
+		"publisherId": "483aab67-a568-4e67-ae17-4ccc9356b581",
+		"publisherDisplayName": "almzau",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1664245114337
+	}
+}

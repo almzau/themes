@@ -1,0 +1,1 @@
+A simple light theme based of the Jazz print, often found on paper cups in the 90s.
