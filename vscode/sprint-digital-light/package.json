@@ -1,0 +1,21 @@
+{
+  "name": "sprint-digital-light",
+  "displayName": "Sprint Digital (Light)",
+  "description": "Sprint Digital Light Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sprint Digital (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/Sprint Digital (Light)-color-theme.json"
+      }
+    ]
+  }
+}
