@@ -1,0 +1,21 @@
+{
+  "name": "oxidized-copper",
+  "displayName": "oxidized-copper",
+  "description": "Oxidized Copper",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oxidized Copper",
+        "uiTheme": "vs",
+        "path": "./themes/Oxidized Copper-color-theme.json"
+      }
+    ]
+  }
+}
