@@ -2,6 +2,7 @@
   "name": "oxidized-copper",
   "displayName": "oxidized-copper",
   "description": "Oxidized Copper",
+  "publisher": "almzau",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
