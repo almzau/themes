@@ -1,6 +1,8 @@
 {
   "name": "Oxidized Copper",
   "colors": {
+    "button.foreground": "#FFFFFF90",
+    "button.background": "#004B4B",
     "activityBar.background": "#056C5B",
     "activityBar.dropBackground": "#7C380020",
     "activityBar.foreground": "#f0f0f090",
