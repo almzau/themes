@@ -1,0 +1,1 @@
+A simple theme, based off one of my favorite destiny2 emblems
