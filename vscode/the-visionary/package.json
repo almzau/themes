@@ -1,0 +1,23 @@
+{
+  "name": "the-visionary",
+  "displayName": "The Visionary",
+  "publisher": "almzau",
+  "description": "Based off a favourite Destiny2 Emblem",
+  "repository": "git@github.com:almzau/the-visionary.git",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "the-visionary",
+        "uiTheme": "vs",
+        "path": "./themes/the-visionary.json"
+      }
+    ]
+  }
+}
