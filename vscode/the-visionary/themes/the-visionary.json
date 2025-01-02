@@ -27,8 +27,8 @@
     "editorIndentGuide.background": "#38383818",
     "editorLineNumber.activeForeground": "#777777",
     "editorLineNumber.foreground": "#bbbbbb",
-    "list.activeSelectionBackground": "#61f2c460",
-    "list.activeSelectionForeground": "#383838",
+    "list.activeSelectionBackground": "#000000",
+    "list.activeSelectionForeground": "#ffffff",
     "list.hoverBackground": "#f0f0f0",
     "list.inactiveSelectionBackground": "#f0f0f0",
     "sideBar.background": "#f8f8f8",
@@ -189,7 +189,7 @@
     {
       "scope": "beginning.punctuation.definition.list.markdown",
       "settings": {
-        "foreground": "#66CC99"
+        "foreground": "#8b7f00"
       }
     },
     {
@@ -438,7 +438,7 @@
         "storage.type.primitive.groovy"
       ],
       "settings": {
-        "foreground": "#009999"
+        "foreground": "#000000"
       }
     },
     {
@@ -452,7 +452,7 @@
         "entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#009999"
+        "foreground": "#000000"
       }
     },
     {
@@ -554,7 +554,7 @@
     {
       "scope": "token.info-token",
       "settings": {
-        "foreground": "#66CC99"
+        "foreground": "#8b7f00"
       }
     },
     {
