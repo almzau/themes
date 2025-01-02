@@ -23,8 +23,8 @@
     "editorCursor.background": "#f8f8f8",
     "editorCursor.foreground": "#383838",
     "editorGroupHeader.tabsBackground": "#f0f0f0",
-    "editorIndentGuide.activeBackground": "#38383820",
-    "editorIndentGuide.background": "#38383818",
+    "editorIndentGuide.activeBackground1": "#38383820",
+    "editorIndentGuide.background1": "#38383818",
     "editorLineNumber.activeForeground": "#777777",
     "editorLineNumber.foreground": "#bbbbbb",
     "editorBracketHighlight.foreground1": "#757575",
@@ -280,7 +280,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#bbbbbb"
+        "foreground": "#8f8f8f"
       }
     },
     {
@@ -331,7 +331,7 @@
         "source.coffee.embedded"
       ],
       "settings": {
-        "foreground": "#446688"
+        "foreground": "#000000"
       }
     },
     {
@@ -498,7 +498,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#446688"
+        "foreground": "#000000"
       }
     },
     {

@@ -4,7 +4,7 @@
   "publisher": "almzau",
   "description": "Based off a favourite Destiny2 Emblem",
   "repository": "git@github.com:almzau/the-visionary.git",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.73.0"
   },
