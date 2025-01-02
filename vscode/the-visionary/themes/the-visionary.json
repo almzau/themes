@@ -27,6 +27,13 @@
     "editorIndentGuide.background": "#38383818",
     "editorLineNumber.activeForeground": "#777777",
     "editorLineNumber.foreground": "#bbbbbb",
+    "editorBracketHighlight.foreground1": "#757575",
+    "editorBracketHighlight.foreground2": "#757575",
+    "editorBracketHighlight.foreground3": "#757575",
+    "editorBracketHighlight.foreground4": "#757575",
+    "editorBracketHighlight.foreground5": "#757575",
+    "editorBracketHighlight.foreground6": "#757575",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",    
     "list.activeSelectionBackground": "#000000",
     "list.activeSelectionForeground": "#ffffff",
     "list.hoverBackground": "#f0f0f0",
@@ -34,13 +41,24 @@
     "sideBar.background": "#f8f8f8",
     "sideBarSectionHeader.background": "#f0f0f0",
     "statusBar.background": "#e8e8e8",
-    "statusBar.debuggingBackground": "#446688",
+    "statusBar.debuggingBackground": "#e8e8e8",
     "statusBar.foreground": "#040404",
     "statusBar.noFolderForeground": "#383838",
     "statusBar.noFolderBackground": "#e8e8e8",
     "tab.activeBackground": "#f8f8f8",
     "tab.border": "#38383820",
-    "tab.inactiveBackground": "#f0f0f0"
+    "tab.inactiveBackground": "#f0f0f0",
+    "button.background": "#000000", // Background colour of buttons
+    "button.foreground": "#ffffff", // Text colour on buttons
+    "button.hoverBackground": "#8b7f00", // Background colour when hovered
+    "button.secondaryBackground": "#bbbbbb", // Inactive button background
+    "button.secondaryForeground": "#bbbbbb",  // Inactive button text color    
+    "gitDecoration.addedResourceForeground": "#4CAF50", // Colour for added files
+    "gitDecoration.modifiedResourceForeground": "#FF9800", // Colour for modified files
+    "gitDecoration.deletedResourceForeground": "#f4de36", // Colour for deleted files
+    "gitDecoration.untrackedResourceForeground": "#8b7f00", // Colour for untracked files
+    "gitDecoration.ignoredResourceForeground": "#9E9E9E", // Colour for ignored files
+    "gitDecoration.conflictingResourceForeground": "#3f3a00" // Colour for conflicts    
   },
   "tokenColors": [
     {
@@ -262,7 +280,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#"
+        "foreground": "#bbbbbb"
       }
     },
     {
@@ -400,7 +418,7 @@
         "support.constant.handlebars"
       ],
       "settings": {
-        "foreground": "#446688"
+        "foreground": "#000000"
       }
     },
     {
@@ -471,7 +489,7 @@
         "entity.name.variable"
       ],
       "settings": {
-        "foreground": "#446688"
+        "foreground": "#000000"
       }
     },
     {
@@ -576,7 +594,12 @@
       }
     },
     {
-      "scope": "variable",
+      "scope": [
+        "variable",
+        "punctuation.definition.arguments.begin.python",
+        "punctuation.definition.arguments.end.python",
+        "meta.function-call.python"
+      ],
       "settings": {
         "foreground": "#383838"
       }
