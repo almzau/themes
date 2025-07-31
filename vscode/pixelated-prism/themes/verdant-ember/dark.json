@@ -1,0 +1,221 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Verdant Ember (Dark)",
+  "colors": {
+    // UI Elements
+    "titleBar.activeBackground": "#2B0000",
+    "titleBar.inactiveBackground": "#2B0000",
+    "titleBar.activeForeground": "#ffffff", // Colour for the text in the active title bar
+    "titleBar.inactiveForeground": "#ffffff", // Colour for text in the inactive title bar     
+    "editor.background": "#330000", // Dark Red/Brown (from palette base)
+    "editor.foreground": "#E8F5E9", // Light text for strong contrast (light green-grey)
+    "editorCursor.foreground": "#8BC34A", // Lime Green for cursor
+    "editor.selectionBackground": "#4D000080", // Darker Red, semi-transparent for selection
+    "editor.lineHighlightBackground": "#4D000050", // Darker Red, more transparent for line highlight
+    "editorLineNumber.foreground": "#A5D6A7", // Light Green for line numbers
+    "editor.inactiveSelectionBackground": "#4D000050", // Transparent version for inactive selection
+    "activityBar.background": "#330000", // Dark Red/Brown
+    "activityBar.foreground": "#E8F5E9", // Light text
+    "activityBarBadge.background": "#F44336", // Red for badge
+    "activityBarBadge.foreground": "#FFFFFF", // White text on badge
+    "sideBar.background": "#2B0000", // Slightly darker than editor background for hierarchy
+    "sideBar.foreground": "#E8F5E9", // Light text
+    "sideBarSectionHeader.background": "#4D0000", // Darker Red for section headers
+    "sideBarSectionHeader.foreground": "#E8F5E9",
+    "statusBar.background": "#330000", // Dark Red/Brown
+    "statusBar.foreground": "#E8F5E9", // Light text
+    "statusBar.debuggingBackground": "#F44336", // Red for debugging status
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "editorGroupHeader.tabsBackground": "#2B0000", // Darker background for tab bar
+    "tab.activeBackground": "#330000", // Editor background for active tab
+    "tab.inactiveBackground": "#2B0000", // Sidebar background for inactive tabs
+    "tab.activeForeground": "#E8F5E9", // Light text for active tab
+    "tab.inactiveForeground": "#C8E6C9", // Muted light green for inactive tab text
+    "tab.border": "#2B0000", // Border between tabs
+    "button.background": "#F44336", // Red for buttons
+    "button.foreground": "#FFFFFF", // White text on buttons
+    "button.hoverBackground": "#D32F2F", // Darker Red on hover
+    "list.hoverBackground": "#4D0000", // Darker Red for list item hover
+    "list.activeSelectionBackground": "#4D0000", // Darker Red for active list item
+    "list.inactiveSelectionBackground": "#4D0000", // Darker Red for inactive list item
+    "input.background": "#2B0000", // Darker background for input fields
+    "input.foreground": "#E8F5E9", // Light text for input
+    "input.placeholderForeground": "#C8E6C980", // Light Green, semi-transparent for placeholder
+    "dropdown.background": "#2B0000", // Darker background for dropdowns
+    "dropdown.foreground": "#E8F5E9", // Light text for dropdowns
+    "pickerGroup.foreground": "#E8F5E9", // Light text for picker group headers
+    "terminal.background": "#1A0000", // Very Dark Red/Near Black for terminal background
+    "terminal.foreground": "#E8F5E9", // Light text for terminal
+    "notificationCenterHeader.background": "#2B0000",
+    "notificationCenterHeader.foreground": "#E8F5E9",
+    "notificationToast.background": "#330000",
+    "notificationToast.foreground": "#E8F5E9",
+    "badge.background": "#F44336",
+    "badge.foreground": "#FFFFFF",
+    "scrollbarSlider.background": "#A5D6A750", // Light Green, semi-transparent
+    "scrollbarSlider.hoverBackground": "#A5D6A780", // Light Green, more transparent on hover
+    "scrollbarSlider.activeBackground": "#A5D6A7", // Light Green when active
+    "editorWidget.background": "#2B0000",
+    "editorWidget.border": "#F44336",
+    "debugToolBar.background": "#2B0000",
+    "progressBar.background": "#F44336",
+    "panel.background": "#2B0000",
+    "panelTitle.activeForeground": "#E8F5E9",
+    "panelTitle.inactiveForeground": "#C8E6C9",
+    "panelTitle.activeBorder": "#F44336",
+    "editorBracketMatch.background": "#4D0000",
+    "editorBracketMatch.border": "#F44336",
+    "editorOverviewRuler.errorForeground": "#D32F2F", // Darker Red for errors
+    "editorOverviewRuler.warningForeground": "#CDDC39", // Yellow-Green for warnings
+    "editorOverviewRuler.infoForeground": "#4CAF50", // Medium Green for info
+    "gitDecoration.modifiedResourceForeground": "#8BC34A", // Lime Green for modified
+    "gitDecoration.deletedResourceForeground": "#D32F2F", // Darker Red for deleted
+    "gitDecoration.untrackedResourceForeground": "#CDDC39", // Yellow-Green for untracked
+    "gitDecoration.ignoredResourceForeground": "#6D4C41", // Dark Brown for ignored
+    "gitDecoration.conflictingResourceForeground": "#F44336", // Red for conflicting
+    "extensionButton.prominentBackground": "#F44336",
+    "extensionButton.prominentHoverBackground": "#D32F2F",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "settings.headerForeground": "#E8F5E9",
+    "settings.modifiedItemIndicator": "#F44336",
+    "settings.dropdownBackground": "#2B0000",
+    "settings.dropdownForeground": "#E8F5E9",
+    "settings.textInputBackground": "#2B0000",
+    "settings.textInputForeground": "#E8F5E9",
+    "settings.checkboxBackground": "#2B0000",
+    "settings.checkboxForeground": "#E8F5E9",
+    "settings.numberInputBackground": "#2B0000",
+    "settings.numberInputForeground": "#E8F5E9",
+    "breadcrumb.foreground": "#C8E6C9",
+    "breadcrumb.activeSelectionForeground": "#E8F5E9",
+    "breadcrumbPicker.background": "#2B0000",
+    "menu.background": "#2B0000",
+    "menu.foreground": "#E8F5E9",
+    "menu.selectionBackground": "#4D0000",
+    "menu.selectionForeground": "#E8F5E9",
+    "editor.findMatchBackground": "#F4433650",
+    "editor.findMatchHighlightBackground": "#F4433630",
+    "editor.wordHighlightBackground": "#A5D6A750",
+    "editor.wordHighlightStrongBackground": "#A5D6A780",
+    "editor.foldBackground": "#4D0000",
+    "editorGutter.foldingControlForeground": "#E8F5E9",
+    "editorHoverWidget.background": "#2B0000",
+    "editorHoverWidget.border": "#F44336",
+    "peekView.border": "#F44336",
+    "peekViewEditor.background": "#2B0000",
+    "peekViewResult.background": "#2B0000",
+    "peekViewTitle.background": "#2B0000",
+    // Terminal ANSI Colors (mapping to palette for consistency)
+    "terminal.ansiBlack": "#1A0000",
+    "terminal.ansiRed": "#D32F2F",
+    "terminal.ansiGreen": "#4CAF50",
+    "terminal.ansiYellow": "#CDDC39",
+    "terminal.ansiBlue": "#A5D6A7",
+    "terminal.ansiMagenta": "#F44336",
+    "terminal.ansiCyan": "#8BC34A",
+    "terminal.ansiWhite": "#E8F5E9",
+    "terminal.ansiBrightBlack": "#6D4C41",
+    "terminal.ansiBrightRed": "#FF5722",
+    "terminal.ansiBrightGreen": "#7CB342",
+    "terminal.ansiBrightYellow": "#D4E157",
+    "terminal.ansiBrightBlue": "#66BB6A",
+    "terminal.ansiBrightMagenta": "#C62828",
+    "terminal.ansiBrightCyan": "#9CCC65",
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#6D4C41" // Dark Brown for comments
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#CDDC39" // Yellow-Green for strings
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#FF5722" // Bright Orange for keywords
+      }
+    },
+    {
+      "scope": [
+        "number",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#8BC34A" // Lime Green for numbers
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#4CAF50" // Medium Green for variables
+      }
+    },
+    {
+      "scope": [
+        "function",
+        "entity.name.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#F44336" // Red for functions
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#A5D6A7" // Light Green for types/classes
+      }
+    },
+    {
+      "scope": [
+        "operator",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#E8F5E9" // Light text for operators
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "delimiter"
+      ],
+      "settings": {
+        "foreground": "#E8F5E9" // Light text for punctuation
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#D32F2F" // Darker Red for errors
+      }
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Sakura",
+  "type": "light",
+  "colors": {
+    "list.warningForeground": "#52001d",
+    "list.errorForeground": "#cf0176",
+    "activityBar.background": "#FFF0F0", // Very light pink for activity bar
+    "activityBar.foreground": "#1A0000", // Dark text
+    "activityBarBadge.background": "#D32F2F", // Darker Red for badge
+    "activityBarBadge.foreground": "#FFFFFF", // White text on badge
+    "badge.background": "#F44336",
+    "badge.foreground": "#FFFFFF",
+    "breadcrumb.activeSelectionForeground": "#1A0000",
+    "breadcrumb.foreground": "#550000",
+    "breadcrumbPicker.background": "#FFEEED",
+    "button.background": "#F44336", // Red for buttons
+    "button.foreground": "#FFFFFF", // White text on buttons
+    "button.hoverBackground": "#D32F2F", // Darker Red on hover
+    "debugToolBar.background": "#FFEEED",
+    "dropdown.background": "#FFEEED", // Darker background for dropdowns
+    "dropdown.foreground": "#1A0000", // Dark text for dropdowns
+    "editor.background": "#FFFFFF", // White background for text areas
+    "editor.cursor.foreground": "#FF5722", // Bright Orange for cursor
+    "editor.findMatchBackground": "#F4433650",
+    "editor.findMatchHighlightBackground": "#F4433630",
+    "editor.foldBackground": "#FFCDD2",
+    "editor.foreground": "#1A0000", // Very Dark Red/Brown for text, matching palette's dark base
+    "editorGutter.foldingControlForeground": "#1A0000",
+    "editorGroupHeader.tabsBackground": "#FFEEED", // Darker background for tab bar
+    "editorHoverWidget.background": "#FFEEED",
+    "editorHoverWidget.border": "#F44336",
+    "editor.inactiveSelectionBackground": "#FFCDD250", // Transparent version for inactive selection
+    "editor.lineHighlightBackground": "#FFCDD250", // Light Pink, more transparent for line highlight
+    "editorLineNumber.foreground": "#F44336", // Red for line numbers
+    "editor.selectionBackground": "#FFCDD280", // Light Pink, semi-transparent for selection
+    "editor.wordHighlightBackground": "#F8BBD050",
+    "editor.wordHighlightStrongBackground": "#F8BBD080",
+    "extensionButton.prominentBackground": "#F44336",
+    "extensionButton.prominentForeground": "#FFFFFF",
+    "extensionButton.prominentHoverBackground": "#D32F2F",
+    "gitDecoration.addedResourceForeground": "#ff00dd", // Yellow for index added files
+    "gitDecoration.conflictingResourceForeground": "#E91E63", // Magenta for conflicts
+    "gitDecoration.deletedResourceForeground": "#D32F2F", // Darker Red for deleted files
+    "gitDecoration.ignoredResourceForeground": "#A1887F", // Brown/Grey for ignored files
+    "gitDecoration.modifiedResourceForeground": "#FF5722", // Bright Orange for modified files
+    "gitDecoration.untrackedResourceForeground": "#ba0962", // Yellow-Orange for untracked files
+    "input.background": "#FFEEED", // Darker background for input fields
+    "input.foreground": "#1A0000", // Dark text for input
+    "input.placeholderForeground": "#F8BBD0", // Light Pink for placeholder
+    "list.activeSelectionBackground": "#FFCDD2", // Light Pink for active list item
+    "list.foreground": "#1A0000", // Dark text for unselected items (default list foreground)
+    "list.hoverBackground": "#FFCDD2", // Light Pink for list item hover
+    "list.inactiveSelectionBackground": "#FFCDD2", // Light Pink for inactive list item
+    "menu.background": "#FFEEED",
+    "menu.foreground": "#1A0000",
+    "menu.selectionBackground": "#FFCDD2",
+    "menu.selectionForeground": "#1A0000",
+    "notificationCenterHeader.background": "#FFEEED",
+    "notificationCenterHeader.foreground": "#1A0000",
+    "notificationToast.background": "#FFF0F0",
+    "notificationToast.foreground": "#1A0000",
+    "panel.background": "#FFEEED",
+    "panelTitle.activeBorder": "#F44336",
+    "panelTitle.activeForeground": "#1A0000",
+    "panelTitle.inactiveForeground": "#550000",
+    "peekView.border": "#F44336",
+    "peekViewEditor.background": "#FFEEED",
+    "peekViewResult.background": "#FFEEED",
+    "peekViewTitle.background": "#FFEEED",
+    "pickerGroup.foreground": "#1A0000", // Dark text for picker group headers
+    "progressBar.background": "#F44336",
+    "quickInput.background": "#FFEEED", // Darker background for input background
+    "quickInput.foreground": "#1A0000", // Dark text for input text
+    "quickInput.titleBackground": "#FFCDD2", // Light Pink for quick pick title background
+    "quickInputList.focusBackground": "#FFCDD2", // Light Pink for selected item background
+    "quickInputList.focusForeground": "#1A0000", // Very Dark Red/Brown for selected item text
+    "quickInputList.focusIconForeground": "#1A0000", // Very Dark Red/Brown for selected item icon
+    "quickInputList.hoverBackground": "#FFCDD250", // Light Pink, semi-transparent for hovered item background
+    "quickInputList.hoverForeground": "#1A0000", // Very Dark Red/Brown for hovered item text
+    "quickInputList.hoverIconForeground": "#1A0000", // Very Dark Red/Brown for hovered item icon
+    "scrollbarSlider.activeBackground": "#F8BBD0", // Light Pink when active
+    "scrollbarSlider.background": "#F8BBD050", // Light Pink, semi-transparent
+    "scrollbarSlider.hoverBackground": "#F8BBD080", // Light Pink, more transparent on hover
+    "settings.checkboxBackground": "#FFEEED",
+    "settings.checkboxForeground": "#1A0000",
+    "settings.dropdownBackground": "#FFEEED",
+    "settings.dropdownForeground": "#1A0000",
+    "settings.headerForeground": "#1A0000",
+    "settings.modifiedItemIndicator": "#F44336",
+    "settings.numberInputBackground": "#FFEEED",
+    "settings.numberInputForeground": "#1A0000",
+    "settings.textInputBackground": "#FFEEED",
+    "settings.textInputForeground": "#1A0000",
+    "sideBar.background": "#FFEEED", // Slightly darker light pink for sidebar
+    "sideBar.foreground": "#1A0000", // Dark text
+    "sideBarSectionHeader.background": "#FFCDD2", // Light Pink for section headers
+    "sideBarSectionHeader.foreground": "#1A0000",
+    "statusBar.background": "#FFF0F0", // Very light pink for status bar
+    "statusBar.debuggingBackground": "#D32F2F", // Darker Red for debugging status
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.foreground": "#1A0000", // Dark text
+    "tab.activeBackground": "#FFFFFF", // Editor background for active tab
+    "tab.activeForeground": "#1A0000", // Dark text for active tab
+    "tab.border": "#FFEEED", // Border between tabs
+    "tab.inactiveBackground": "#FFEEED", // Sidebar background for inactive tabs
+    "tab.inactiveForeground": "#550000", // Muted dark red/brown for inactive tab text
+    "terminal.ansiBlack": "#1A0000",
+    "terminal.ansiBlue": "#F06292",
+    "terminal.ansiBrightBlack": "#A1887F",
+    "terminal.ansiBrightBlue": "#EC407A",
+    "terminal.ansiBrightCyan": "#FF8A65",
+    "terminal.ansiBrightGreen": "#CDDC39",
+    "terminal.ansiBrightMagenta": "#C2185B",
+    "terminal.ansiBrightRed": "#F44336",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#FFD54F",
+    "terminal.ansiCyan": "#FFB366",
+    "terminal.ansiGreen": "#FFEB3B",
+    "terminal.ansiMagenta": "#E91E63",
+    "terminal.ansiRed": "#D32F2F",
+    "terminal.ansiWhite": "#FFF8E1",
+    "terminal.ansiYellow": "#FFC107",
+    "terminal.background": "#F8F8F8", // Very light grey for terminal background
+    "terminal.foreground": "#1A0000", // Dark text for terminal
+    "titleBar.activeBackground": "#FFEEED",
+    "titleBar.activeForeground": "#1A0000", // Colour for the text in the active title bar
+    "titleBar.inactiveBackground": "#FFEEED",
+    "titleBar.inactiveForeground": "#1A0000" // Colour for text in the inactive title bar    
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#8D6E63" // Darker Brown/Grey for comments
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#E91E63" // Magenta/Pink for strings
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#9C27B0" // Purple for keywords
+      }
+    },
+    {
+      "scope": [
+        "number",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#FF5722" // Bright Orange for numbers
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#F44336" // Red for variables
+      }
+    },
+    {
+      "scope": [
+        "function",
+        "entity.name.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#C2185B" // Darker Magenta/Pink for functions
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#920164" // Purple for types/classes
+      }
+    },
+    {
+      "scope": [
+        "operator",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#1A0000" // Very Dark Red/Brown for operators
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "delimiter"
+      ],
+      "settings": {
+        "foreground": "#1A0000" // Very Dark Red/Brown for punctuation
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#D32F2F" // Darker Red for errors
+      }
+    }
+  ]
+}
