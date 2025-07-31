@@ -1,0 +1,231 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Cherry",
+  "type": "dark",
+  "colors": {
+    "list.warningForeground": "#a10a3f",
+    "list.errorForeground": "#cf0176",
+    "activityBar.background": "#330000", // Dark Red/Brown
+    "activityBar.foreground": "#FFF8E1", // Light text
+    "activityBarBadge.background": "#D32F2F", // Darker Red for badge
+    "activityBarBadge.foreground": "#FFFFFF", // White text on badge
+    "badge.background": "#F44336", // Background color for badges
+    "badge.foreground": "#FFFFFF", // Foreground color for badges
+    "breadcrumb.activeSelectionForeground": "#FFF8E1", // Foreground color for the active item in the breadcrumbs
+    "breadcrumb.foreground": "#F8BBD0", // Foreground color for breadcrumbs
+    "breadcrumbPicker.background": "#2B0000", // Background color for the breadcrumb picker
+    "button.background": "#F44336", // Red for buttons
+    "button.foreground": "#FFFFFF", // White text on buttons
+    "button.hoverBackground": "#D32F2F", // Darker Red on hover
+    "debugToolBar.background": "#2B0000", // Background color for the debug toolbar
+    "dropdown.background": "#2B0000", // Darker background for dropdowns
+    "dropdown.foreground": "#FFF8E1", // Light text for dropdowns
+    "editor.background": "#330000", // Dark Red/Brown (from palette)
+    "editor.bracketMatch.background": "#4D0000", // Background color for matching brackets
+    "editor.bracketMatch.border": "#F44336", // Border color for matching brackets
+    "editor.cursor.foreground": "#FF5722", // Bright Orange for cursor
+    "editor.findMatchBackground": "#F4433650", // Background color for current find match
+    "editor.findMatchHighlightBackground": "#F4433630", // Background color for other find matches
+    "editor.foldBackground": "#4D0000", // Background color for folded code regions
+    "editor.foreground": "#FFF8E1", // Light text for strong contrast (off-white)
+    "editorGutter.foldingControlForeground": "#FFF8E1", // Foreground color for folding controls in the editor gutter
+    "editorGroupHeader.tabsBackground": "#2B0000", // Darker background for tab bar
+    "editorHoverWidget.background": "#2B0000", // Background color for the editor hover widget
+    "editorHoverWidget.border": "#F44336", // Border color for the editor hover widget
+    "editor.inactiveSelectionBackground": "#4D000050", // Transparent version for inactive selection
+    "editor.lineHighlightBackground": "#4D000050", // Darker Red, more transparent for line highlight
+    "editorLineNumber.foreground": "#FFCDD2", // Light Pink for line numbers
+    "editorOverviewRuler.errorForeground": "#D32F2F", // Darker Red for errors
+    "editorOverviewRuler.infoForeground": "#F06292", // Pink for info
+    "editorOverviewRuler.warningForeground": "#ff3bc1", // Magenta for warnings
+    "editor.selectionBackground": "#4D000080", // Darker Red, semi-transparent for selection
+    "editor.wordHighlightBackground": "#F8BBD050", // Background color for word highlights
+    "editor.wordHighlightStrongBackground": "#F8BBD080", // Background color for strong word highlights
+    "extensionButton.prominentBackground": "#F44336", // Background color for prominent buttons in extensions view
+    "extensionButton.prominentForeground": "#FFFFFF", // Foreground color for prominent buttons in extensions view
+    "extensionButton.prominentHoverBackground": "#D32F2F", // Hover background color for prominent buttons in extensions view
+    "gitDecoration.conflictingResourceForeground": "#E91E63", // Magenta for conflicting
+    "gitDecoration.deletedResourceForeground": "#D32F2F", // Darker Red for deleted files
+    "gitDecoration.errorResourceForeground": "#D32F2F", // Darker Red for files with errors
+    "gitDecoration.modifiedResourceForeground": "#FF5722", // Bright Orange for modified
+    "gitDecoration.untrackedResourceForeground": "#ff8597", // Pink for untracked
+    "input.background": "#2B0000", // Darker background for input fields
+    "input.foreground": "#FFF8E1", // Light text for input
+    "input.placeholderForeground": "#F8BBD080", // Light Pink, semi-transparent for placeholder
+    "list.activeSelectionBackground": "#4D0000", // Darker Red for active list item
+    "list.foreground": "#FFF8E1", // Default foreground for list items
+    "list.hoverBackground": "#4D0000", // Darker Red for list item hover
+    "list.inactiveSelectionBackground": "#4D0000", // Darker Red for inactive list item
+    "menu.background": "#2B0000", // Background color for menus
+    "menu.foreground": "#FFF8E1", // Foreground color for menu items
+    "menu.selectionBackground": "#4D0000", // Background color for selected menu items
+    "menu.selectionForeground": "#FFF8E1", // Foreground color for selected menu items
+    "notificationCenterHeader.background": "#2B0000", // Background color for notification center header
+    "notificationCenterHeader.foreground": "#FFF8E1", // Foreground color for notification center header
+    "notificationToast.background": "#330000", // Background color for notification toasts
+    "notificationToast.foreground": "#FFF8E1", // Foreground color for notification toasts
+    "panel.background": "#2B0000", // Background color for panels
+    "panelTitle.activeBorder": "#F44336", // Border color for active panel title
+    "panelTitle.activeForeground": "#FFF8E1", // Foreground color for active panel title
+    "panelTitle.inactiveForeground": "#F8BBD0", // Foreground color for inactive panel title
+    "peekView.border": "#F44336", // Border color for peek view
+    "peekViewEditor.background": "#2B0000", // Background color for peek view editor
+    "peekViewResult.background": "#2B0000", // Background color for peek view results
+    "peekViewTitle.background": "#2B0000", // Background color for peek view title
+    "pickerGroup.border": "#4D0000", // Darker Red for group borders
+    "pickerGroup.foreground": "#FFF8E1", // Light text for group labels
+    "progressBar.background": "#F44336", // Background color for progress bars
+    "quickInput.background": "#2B0000", // Darker background for input background
+    "quickInput.foreground": "#FFF8E1", // Light text for input text
+    "quickInput.titleBackground": "#4D0000", // Darker Red for quick pick title background
+    "quickInputList.focusBackground": "#4D0000", // Darker Red for selected item background
+    "quickInputList.focusForeground": "#FFF8E1", // Light text for selected item text
+    "quickInputList.focusIconForeground": "#FFF8E1", // Light text for selected item icon
+    "quickInputList.hoverBackground": "#4D000050", // Darker Red, semi-transparent for hovered item background
+    "quickInputList.hoverForeground": "#FFF8E1", // Light text for hovered item text
+    "quickInputList.hoverIconForeground": "#FFF8E1", // Light text for hovered item icon
+    "scrollbarSlider.activeBackground": "#F8BBD0", // Light Pink when active
+    "scrollbarSlider.background": "#F8BBD050", // Light Pink, semi-transparent
+    "scrollbarSlider.hoverBackground": "#F8BBD080", // Light Pink, more transparent on hover
+    "settings.checkboxBackground": "#2B0000", // Background color for checkboxes in settings
+    "settings.checkboxForeground": "#FFF8E1", // Foreground color for checkboxes in settings
+    "settings.dropdownBackground": "#2B0000", // Background color for dropdowns in settings
+    "settings.dropdownForeground": "#FFF8E1", // Foreground color for dropdowns in settings
+    "settings.headerForeground": "#FFF8E1", // Foreground color for settings headers
+    "settings.modifiedItemIndicator": "#F44336", // Color for modified item indicators in settings
+    "settings.numberInputBackground": "#2B0000", // Background color for number inputs in settings
+    "settings.numberInputForeground": "#FFF8E1", // Foreground color for number inputs in settings
+    "settings.textInputBackground": "#2B0000", // Background color for text inputs in settings
+    "settings.textInputForeground": "#FFF8E1", // Foreground color for text inputs in settings
+    "sideBar.background": "#2B0000", // Slightly darker than editor background for hierarchy
+    "sideBar.foreground": "#FFF8E1", // Light text
+    "sideBarSectionHeader.background": "#4D0000", // Darker Red for section headers
+    "sideBarSectionHeader.foreground": "#FFF8E1",
+    "statusBar.background": "#330000", // Dark Red/Brown
+    "statusBar.debuggingBackground": "#D32F2F", // Darker Red for debugging status
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.foreground": "#FFF8E1", // Light text
+    "tab.activeBackground": "#330000", // Editor background for active tab
+    "tab.activeForeground": "#FFF8E1", // Light text for active tab
+    "tab.border": "#2B0000", // Border between tabs
+    "tab.inactiveBackground": "#2B0000", // Sidebar background for inactive tabs
+    "tab.inactiveForeground": "#F8BBD0", // Muted pink for inactive tab text
+    "terminal.ansiBlack": "#1A0000", // ANSI Black color for the terminal
+    "terminal.ansiBlue": "#F06292", // ANSI Blue color for the terminal
+    "terminal.ansiBrightBlack": "#A1887F", // Bright ANSI Black color for the terminal
+    "terminal.ansiBrightBlue": "#EC407A", // Bright ANSI Blue color for the terminal
+    "terminal.ansiBrightCyan": "#FF8A65", // Bright ANSI Cyan color for the terminal
+    "terminal.ansiBrightGreen": "#CDDC39", // Bright ANSI Green color for the terminal
+    "terminal.ansiBrightMagenta": "#C2185B", // Bright ANSI Magenta color for the terminal
+    "terminal.ansiBrightRed": "#F44336", // Bright ANSI Red color for the terminal
+    "terminal.ansiBrightWhite": "#FFFFFF", // Bright ANSI White color for the terminal
+    "terminal.ansiBrightYellow": "#FFD54F", // Bright ANSI Yellow color for the terminal
+    "terminal.ansiCyan": "#FFB366", // ANSI Cyan color for the terminal
+    "terminal.ansiGreen": "#FFEB3B", // ANSI Green color for the terminal
+    "terminal.ansiMagenta": "#E91E63", // ANSI Magenta color for the terminal
+    "terminal.ansiRed": "#D32F2F", // ANSI Red color for the terminal
+    "terminal.ansiWhite": "#FFF8E1", // ANSI White color for the terminal
+    "terminal.ansiYellow": "#FFC107", // ANSI Yellow color for the terminal
+    "terminal.background": "#1A0000", // Very Dark Red/Near Black for terminal background
+    "terminal.foreground": "#FFF8E1", // Light text for terminal
+    "titleBar.activeBackground": "#4D0000", // Background color for the active window's title bar
+    "titleBar.activeForeground": "#F8BBD0", // Colour for the text in the active title bar
+    "titleBar.inactiveBackground": "#4D0000", // Background color for inactive window's title bar
+    "titleBar.inactiveForeground": "#F8BBD0" // Colour for text in the inactive title bar
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#A1887F" // Brown/Grey for comments
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#ff3b72" // Yellow for strings
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#E91E63" // Magenta/Pink for keywords
+      }
+    },
+    {
+      "scope": [
+        "number",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#FF5722" // Bright Orange for numbers
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#F44336" // Red for variables
+      }
+    },
+    {
+      "scope": [
+        "function",
+        "entity.name.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#9C27B0" // Purple for functions
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#f1126b" // Fuschia for types/classes
+      }
+    },
+    {
+      "scope": [
+        "operator",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#FFF8E1" // Light text for operators
+      }
+    },
+    {
+      "scope": [
+        "punctuation",
+        "delimiter"
+      ],
+      "settings": {
+        "foreground": "#FFF8E1" // Light text for punctuation
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "foreground": "#D32F2F" // Darker Red for errors
+      }
+    }
+  ]
+}

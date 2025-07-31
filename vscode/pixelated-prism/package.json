@@ -1,0 +1,315 @@
+{
+  "name": "pixelated-prism",
+  "publisher": "almzau",
+  "displayName": "Pixelated Prism",
+  "description": "A collection of vibrant themes with a fluid colour aesthetic.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almzau/themes.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Oceanic Depths (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/oceanic-depths/light.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#607D8B"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#8BC34A"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#FFC107"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#FF9800"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#00BCD4"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#E91E63"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#2196F3"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Oceanic Depths (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/oceanic-depths/dark.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#607D8B"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#8BC34A"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#FFC107"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#FF9800"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#00BCD4"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#E91E63"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#2196F3"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Cherry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cherry.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#A1887F"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#FFEB3B"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#E91E63"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#FF5722"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#F44336"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#9C27B0"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#FFC107"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Sakura",
+        "uiTheme": "vs",
+        "path": "./themes/sakura.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#A1887F"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#FFEB3B"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#E91E63"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#FF5722"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#F44336"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#9C27B0"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#FFC107"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Verdant Ember (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/verdant-ember/light.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#6D4C41"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#CDDC39"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#FF5722"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#8BC34A"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#4CAF50"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#F44336"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#00BCD4"
+            }
+          }
+        ]
+      },
+      {
+        "label": "Verdant Ember (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/verdant-ember/dark.json",
+        "tokenColors": [
+          {
+            "scope": "comment",
+            "settings": {
+              "foreground": "#6D4C41"
+            }
+          },
+          {
+            "scope": "string",
+            "settings": {
+              "foreground": "#CDDC39"
+            }
+          },
+          {
+            "scope": "keyword",
+            "settings": {
+              "foreground": "#FF5722"
+            }
+          },
+          {
+            "scope": "number",
+            "settings": {
+              "foreground": "#8BC34A"
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#4CAF50"
+            }
+          },
+          {
+            "scope": "function",
+            "settings": {
+              "foreground": "#F44336"
+            }
+          },
+          {
+            "scope": "entity.name.type",
+            "settings": {
+              "foreground": "#00BCD4"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
